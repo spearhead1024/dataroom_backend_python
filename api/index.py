@@ -1,6 +1,4 @@
-# /backend/api/index.py
 import os, sys
-
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 BACKEND_ROOT = os.path.dirname(CURRENT_DIR)
 if BACKEND_ROOT not in sys.path:
